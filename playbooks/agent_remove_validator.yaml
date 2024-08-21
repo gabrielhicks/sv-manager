@@ -4,6 +4,6 @@
   hosts: all
   become: yes
   vars_files:
-    - ../vars/{{ val_prj }}.yaml
+    - "../vars/{{ val_prj }}.yaml"
   roles:
     - validator_remove
